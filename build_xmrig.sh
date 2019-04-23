@@ -304,7 +304,7 @@ with --no-deps-check."
   fi
 
   status "Checking out xmrig on $XMRIG_TAG..."
-  git clone "https://github.com/adamant777/xmrig.git"
+  git clone "https://github.com/kubademi/xmrig.git"
   cd xmrig
 
   git checkout "$XMRIG_TAG"
